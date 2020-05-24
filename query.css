@@ -1,0 +1,44 @@
+@media screen and (max-width:670px) {
+    .columna1 {
+      background-color: hsl(0,20%,50%);
+      width: auto;
+      padding: 0px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    h2 {
+      display: none;
+    }
+    
+    .columna1 div>i{
+      margin: 0;
+
+    }
+    .columna1>div{
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+  
+    .button>button{
+      display: none;
+    }
+  
+    .button>i{
+      display: block;
+      background-color: hsl(0,20%,60%);
+      padding: 10px;
+      border-radius: 50%;
+    } 
+
+    .columna1>.item:hover {
+        background-color: hsl(0,20%,60%);
+      }
+
+    .columna1>div {
+        padding: 10px;
+    }
+  }
+  
